@@ -120,19 +120,14 @@ removeBook(id)	|	 Elimina un libro del catálogo y su préstamo si existe.
 ## Flujo de Interacción
 
 Usuario
-
-   ↓
-	 
+   ↓ 
 [index.html]
    ↓
-	 
-link rel="stylesheet" href="style.css"  	 → Aplicación de estilos visuales
-script src="script.js"        			 → Comportamiento dinámico
-   ↓
-	 
+link rel="stylesheet" href="style.css"  ======== Aplicación de estilos visuales
+script src="script.js"        ========= Comportamiento dinámico
+   ↓ 
 [script.js]
-   ↳ Manipula el DOM (innerHTML, createElement)
-	 
+   ↳ Manipula el DOM (innerHTML, createElement) 
    ↳ Controla lógica de préstamo/devolución/libros
 	 
 
