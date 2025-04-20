@@ -1,0 +1,38 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="module"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "uuid": "https://cdn.jsdelivr.net/npm/uuid@9.0.1/+esm"
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Biblioteca</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" data-section="catalog">Catálogo</a></li>
+            <li><a href="#" data-section="borrow">Préstamo</a></li>
+            <li><a href="#" data-section="return">Devolución</a></li>
+            <li><a href="#" data-section="manage">Gestión de Libros</a></li>
+        </ul>
+    </nav>
+
+    <main id="content">
+        <!-- Content will be dynamically loaded here -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Biblioteca</p>
+    </footer>
+</body>
+</html>
