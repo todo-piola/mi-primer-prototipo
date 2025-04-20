@@ -6,8 +6,8 @@
 
 <html>
 <head>
-    <meta="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    meta="UTF-8"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
     <title>Biblioteca</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" type="module"></script>
@@ -72,63 +72,64 @@
 
 Evento		 | 	Descripción
 
-DOMContentLoaded | Ejecuta la lógica cuando el DOM está completamente cargado.
+``DOMContentLoaded`` | Ejecuta la lógica cuando el DOM está completamente cargado.
 
-Click en enlaces de <nav> | Detecta clics en la navegación para mostrar secciones dinámicamente.
+``Click en enlaces de navs`` | Detecta clics en la navegación para mostrar secciones dinámicamente.
 
-Submit en formularios | Captura envíos de formularios (préstamo, devolución, gestión) y los maneja sin recargar la página.
+``Submit en formularios`` | Captura envíos de formularios (préstamo, devolución, gestión) y los maneja sin recargar la página.
 
 
 ## 🗂️ Manejo de Datos
 
 Elemento 	| 	Descripción
 
-books | Lista de libros disponibles con id, title, author y available.
+``books`` | Lista de libros disponibles con id, title, author y available.
 
-loans | Lista de préstamos activos (bookId, user, loanDate).
+``loans`` | Lista de préstamos activos (bookId, user, loanDate).
 
-Persistencia | Todos los datos se gestionan en memoria (no hay base de datos).
+``Persistencia`` | Todos los datos se gestionan en memoria (no hay base de datos).
 
 ---
 
 ## ⚙️ Funciones Principales
 
 Función	 	|	Descripción
-loadSection(seccion)	Muestra dinámicamente una sección del contenido principal.
 
-createCatalogSection()	Genera la vista del catálogo en forma de tabla.
+``loadSection(seccion)``  |  Muestra dinámicamente una sección del contenido principal.
 
-createBorrowSection()	Crea el formulario para pedir préstamos.
+``createCatalogSection()``	|  Genera la vista del catálogo en forma de tabla.
 
-createReturnSection()	Crea el formulario para devolver libros.
+``createBorrowSection()``	|  Crea el formulario para pedir préstamos.
 
-createManageSection()	Permite añadir y eliminar libros.
+``createReturnSection()	``|  Crea el formulario para devolver libros.
 
-# Biblioteca
+``createManageSection()``	|  Permite añadir y eliminar libros.
 
-Función	 |	Descripción
+#### Biblioteca
 
-borrowBook(id, user)	Marca un libro como prestado y lo añade a la lista de préstamos.
+Función	    |	  Descripción
 
-returnBook(id)	Marca un libro como disponible y elimina su préstamo.
+``borrowBook(id, user)	``|  Marca un libro como prestado y lo añade a la lista de préstamos.
 
-addBook(title, author)	Crea un nuevo libro y lo añade al catálogo.
+``returnBook(id)``	|  Marca un libro como disponible y elimina su préstamo.
 
-removeBook(id)	Elimina un libro del catálogo y su préstamo si existe.
+``addBook(title, author)``	|  Crea un nuevo libro y lo añade al catálogo.
+
+``removeBook(id)``	|  Elimina un libro del catálogo y su préstamo si existe.
 
 ---
 
 ## Flujo de Interacción
 
 
-[Usuario]
+Usuario
    ↓
-[index.html]
+index.html
    ↓
-<link rel="stylesheet" href="style.css">   → Aplicación de estilos visuales
-<script src="script.js"></script>          → Comportamiento dinámico
+link rel="stylesheet" href="style.css"   →  Aplicación de estilos visuales
+script src="script.js"/script        →   Comportamiento dinámico
    ↓
-[script.js]
+script.js
    ↳ Manipula el DOM (innerHTML, createElement)
    ↳ Controla lógica de préstamo/devolución/libros
 
