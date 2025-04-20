@@ -1,6 +1,7 @@
 # 🧑‍💻 Guía del Usuario
 
 Bienvenido a la biblioteca online. Esta guía te ayudará a comprender cómo utilizar la aplicación y aprovechar todas sus funcionalidades.
+COMENCEMOS !
 
 ---
 
@@ -64,5 +65,3 @@ En esta versión básica no, pero puede añadirse como propuesta futura.
 - Reporta cualquier fallo o sugerencia desde el formulario de incidencias.
 
 ---
-
-¡Gracias por usar la Biblioteca Online! 📚
