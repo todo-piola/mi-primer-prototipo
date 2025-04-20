@@ -4,33 +4,39 @@ Este documento describe cómo está organizado el proyecto de la biblioteca web,
 
 ## 🗂️ Estructura de Carpetas y Archivos
 
+
+biblioteca-web/
 | Elemento | Descripción
+
 
 | `docs/` | Carpeta que contiene la documentación del proyecto en formato Markdown.
 
-   ├── `01_Introduccion.md`       | Introducción general del proyecto y sus objetivos.
 
-   ├── `02_DiagramaCasosUso.drawio`         | Descripción de los distintos casos de uso disponibles. 
+   ├── 01_Introduccion.md | Introducción general del proyecto y sus objetivos.
+
+   ├── `02_DiagramaCasosUso.drawio`| Descripción de los distintos casos de uso disponibles. 
 
    ├── `03_EstructuraProyecto.md` | Este documento (estructura del proyecto).
 
    ├── `04_DocumentacionTécnica.md` | Detalles sobre el código, eventos, lógica, etc.                        
 
-   ├── `05_MejorasPropuestas.md`  | Ideas y sugerencias para mejoras futuras. 
+   ├── `05_MejorasPropuestas.md` | Ideas y sugerencias para mejoras futuras. 
 
-   └── `06_GuiaUsuario.md`        | Guía básica de uso de la aplicación para usuarios finales.
+   └── `06_GuiaUsuario.md` | Guía básica de uso de la aplicación para usuarios finales.
+   
 
 | `src/` | Carpeta principal del código fuente de la aplicación web. 
 
-   ├── `index.html`      | Archivo principal HTML. Estructura base del sitio web. 
 
-   ├── `style.css`       | Hoja de estilos CSS. Define la apariencia visual de la web. 
+   ├── `index.html` | Archivo principal HTML. Estructura base del sitio web. 
 
-   └── `script.js`       | Lógica y comportamiento dinámico de la aplicación en JavaScript. 
+   ├── `style.css` | Hoja de estilos CSS. Define la apariencia visual de la web. 
 
-| `.gitignore`          | Archivo que indica qué archivos/directorios ignorar en Git. 
+   └── `script.js` | Lógica y comportamiento dinámico de la aplicación en JavaScript. 
 
-| `README.md`           | Documento inicial con resumen y guía del proyecto. 
+| `.gitignore` | Archivo que indica qué archivos/directorios ignorar en Git. 
+
+| `README.md` | Documento inicial con resumen y guía del proyecto. 
 
 
 ## 🌳 Diagrama de Árbol del Proyecto
