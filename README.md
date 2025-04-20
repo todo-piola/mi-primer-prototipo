@@ -28,7 +28,7 @@ Este repositorio contiene una aplicación web educativa que simula una **bibliot
 La documentación completa del proyecto se encuentra en la carpeta [`docs/`](./docs), organizada en los siguientes archivos:
 
 - `01_Introduccion.md` – Descripción general y propósito del proyecto.
-- `02_CasosDeUso.md` – Casos de uso representativos y diagramas.
+- `02_DiagramaCasosUso.drawio` – Casos de uso representativos y diagramas.
 - `03_EstructuraProyecto.md` – Estructura del código y tecnologías empleadas.
 - `04_DocumentacionTécnica.md` – Detalles del desarrollo y lógica de la aplicación.
 - `05_MejorasPropuestas.md` – Ideas para mejorar o ampliar la aplicación.
