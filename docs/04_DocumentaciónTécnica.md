@@ -43,9 +43,9 @@ docs/04_DocumentaciónTécnica
 
 ## CSS: Principales reglas aplicadas
 
-Sección | Regla principal | Descripción breve
+``Sección | Regla principal | Descripción breve``
 
-General (body) | font-family, background-color, color | Fuente clara, fondo gris claro, texto legible.
+General (body) 		| 	font-family, background-color, color 	| 		Fuente clara, fondo gris claro, texto legible.
 
 Encabezado (header) | background-color: #333, color: #fff | Fondo oscuro con texto blanco y centrado.
 
@@ -70,7 +70,7 @@ Tablas (.book-table) | border, padding, background-color | Tablas limpias y orga
 
 ### 📅 Eventos
 
-Evento		 | 	Descripción
+``Evento		 | 	Descripción``
 
 DOMContentLoaded | Ejecuta la lógica cuando el DOM está completamente cargado.
 
@@ -81,7 +81,7 @@ Submit en formularios | Captura envíos de formularios (préstamo, devolución, 
 
 ## 🗂️ Manejo de Datos
 
-Elemento 	| 	Descripción
+``Elemento 	| 	Descripción``
 
 books | Lista de libros disponibles con id, title, author y available.
 
@@ -92,7 +92,7 @@ Persistencia | Todos los datos se gestionan en memoria (no hay base de datos).
 
 ## ⚙️ Funciones Principales
 
-Función	 	|	  Descripción
+``Función	 	|	  Descripción``
 
 loadSection(seccion)	|	 Muestra dinámicamente una sección del contenido principal.
 
@@ -106,7 +106,7 @@ createManageSection()	|	 Permite añadir y eliminar libros.
 
 ### Biblioteca
 
-Función	 |	Descripción
+``Función	 |	Descripción``
 
 borrowBook(id, user)	|	 Marca un libro como prestado y lo añade a la lista de préstamos.
 
@@ -127,7 +127,7 @@ Usuario
    ↓
 	 
 link rel="stylesheet" href="style.css"  	 → Aplicación de estilos visuales
-script src="script.js"        						→ Comportamiento dinámico
+script src="script.js"        			 → Comportamiento dinámico
    ↓
 	 
 [script.js]
@@ -139,8 +139,10 @@ script src="script.js"        						→ Comportamiento dinámico
 ### 🧩 Ejemplo de interacción completa
 
   El usuario abre la aplicación (index.html).
+  
   El navegador carga los estilos (style.css) para mostrar una interfaz estética.
+  
   Al cargarse, script.js:
        - Escucha eventos del usuario (clic en navegación, envío de formularios).
-       - Genera contenido dentro de <div id="content"> según la sección.
+       - Genera contenido dentro de div id="content" según la sección.
        - Gestiona datos (libros y préstamos) y actualiza el DOM sin recargar la página.
